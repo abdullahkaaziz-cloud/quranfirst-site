@@ -1,0 +1,12 @@
+/* The app's own colours (Sources/Design/Theme.swift): green, cream, ink. */
+:root { --green: #124a3b; --cream: #f7f4e9; --ink: #1f2421; --secondary: #61655e; }
+body { margin: 0; background: var(--cream); color: var(--ink);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 3rem; }
+h1 { color: var(--green); font-size: 2rem; line-height: 1.2; margin: 0 0 .75rem; }
+h2 { color: var(--green); font-size: 1.15rem; margin: 2rem 0 .5rem; }
+.lede { font-size: 1.15rem; }
+.small { color: var(--secondary); font-size: .9rem; }
+a { color: var(--green); }
+ul { padding-left: 1.25rem; }
+li { margin: .35rem 0; }
